@@ -1,2 +1,4 @@
-# cc_horovod
-Compute Canada Horovod test
+# Compute Canada Horovod
+
+Base environment to use TF-Horovod on the Digital Research Alliance of Canada 
+clusters.
