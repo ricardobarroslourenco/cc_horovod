@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes 1              # Request 2 nodes so all resources are in two nodes.
-#SBATCH --gres=gpu:4          # Request 2 GPU "generic resources”. You will get 2 per node.
+#SBATCH --gpus-per-node=p100:2          # Request 2 GPU "generic resources”. You will get 2 per node.
 
 #SBATCH --tasks-per-node=4   # Request 1 process per GPU. You will get 1 CPU per process by default. Request more CPUs with the "cpus-per-task" parameter if your input pipeline can handle parallel data-loading/data-transforms
 
