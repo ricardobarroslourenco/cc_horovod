@@ -12,7 +12,7 @@
 module load python/3.8
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
-pip install --no-index tensorflow==2.5.0 horovod
+pip install --no-index tensorflow horovod
 
 export NCCL_BLOCKING_WAIT=1  #Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.
 
