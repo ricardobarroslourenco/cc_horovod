@@ -9,10 +9,10 @@
 #SBATCH --output=%N-%j.out
 
 
-module load python tensorflow horovod
+module load python/3.9 tensorflow/2.9.0 horovod/0.25.0
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
-#### ---- pip install --no-index tensorflow horovod
+##### --- #### pip install --no-index tensorflow==2.5.0 horovod
 
 export NCCL_BLOCKING_WAIT=1  #Set this environment variable if you wish to use the NCCL backend for inter-GPU communication.
 
