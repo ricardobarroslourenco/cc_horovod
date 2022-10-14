@@ -1,0 +1,81 @@
+created virtual environment CPython3.9.6.final.0-64 in 1330ms
+  creator CPython3Posix(dest=/local/lourenco.66249296.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/lourenco/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/protobuf-4.21.5+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/tensorflow-2.9.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/horovod-0.25.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.4.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_pasta-0.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/absl_py-1.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorflow_io_gcs_filesystem-0.26.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Keras_Preprocessing-1.1.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/wrapt-1.13.3+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/libclang-14.0.1+computecanada-py2.py3-none-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/h5py-3.6.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorflow_estimator-2.9.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/grpcio-1.47.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-21.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard-2.9.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/opt_einsum-3.3.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/keras-2.9.0+computecanada-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in /local/lourenco.66249296.0/env/lib/python3.9/site-packages (from tensorflow==2.9.0) (46.1.3)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/gast-0.3.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/numpy-1.23.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/astunparse-1.6.3+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/termcolor-1.1.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/flatbuffers-1.12+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/cffi-1.15.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/PyYAML-6.0+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/psutil-5.9.1+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cloudpickle-2.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.28.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_auth-2.11.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Werkzeug-2.2.2+computecanada-py3-none-any.whl
+Requirement already satisfied: wheel>=0.26 in /local/lourenco.66249296.0/env/lib/python3.9/site-packages (from tensorboard<2.10,>=2.9->tensorflow==2.9.0) (0.34.2)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard_plugin_wit-1.8.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_auth_oauthlib-0.4.6+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Markdown-3.4.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard_data_server-0.6.1+computecanada-py3-none-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pycparser-2.21+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.4+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-1.26.12+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-2.1.1+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2022.9.24+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rsa-4.9+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyasn1_modules-0.2.8+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cachetools-5.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/MarkupSafe-2.1.1+computecanada-cp39-cp39-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests_oauthlib-1.3.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-4.12.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyasn1-0.4.8+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/oauthlib-3.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.8.1+computecanada-py3-none-any.whl
+ERROR: tensorboard 2.9.1+computecanada has requirement protobuf<3.20,>=3.9.2, but you'll have protobuf 4.21.5+computecanada which is incompatible.
+Installing collected packages: protobuf, typing-extensions, six, google-pasta, absl-py, tensorflow-io-gcs-filesystem, numpy, keras-preprocessing, wrapt, libclang, h5py, tensorflow-estimator, grpcio, pyparsing, packaging, idna, urllib3, charset-normalizer, certifi, requests, pyasn1, rsa, pyasn1-modules, cachetools, google-auth, MarkupSafe, werkzeug, tensorboard-plugin-wit, oauthlib, requests-oauthlib, google-auth-oauthlib, zipp, importlib-metadata, markdown, tensorboard-data-server, tensorboard, opt-einsum, keras, gast, astunparse, termcolor, flatbuffers, tensorflow, pycparser, cffi, pyyaml, psutil, cloudpickle, horovod
+Successfully installed MarkupSafe-2.1.1+computecanada absl-py-1.2.0+computecanada astunparse-1.6.3+computecanada cachetools-5.2.0+computecanada certifi-2022.9.24+computecanada cffi-1.15.0+computecanada charset-normalizer-2.1.1+computecanada cloudpickle-2.2.0+computecanada flatbuffers-1.12+computecanada gast-0.3.3+computecanada google-auth-2.11.0+computecanada google-auth-oauthlib-0.4.6+computecanada google-pasta-0.2.0+computecanada grpcio-1.47.0+computecanada h5py-3.6.0+computecanada horovod-0.25.0+computecanada idna-3.4+computecanada importlib-metadata-4.12.0+computecanada keras-2.9.0+computecanada keras-preprocessing-1.1.2+computecanada libclang-14.0.1+computecanada markdown-3.4.1+computecanada numpy-1.23.0+computecanada oauthlib-3.2.0+computecanada opt-einsum-3.3.0+computecanada packaging-21.3+computecanada protobuf-4.21.5+computecanada psutil-5.9.1+computecanada pyasn1-0.4.8+computecanada pyasn1-modules-0.2.8+computecanada pycparser-2.21+computecanada pyparsing-3.0.9+computecanada pyyaml-6.0+computecanada requests-2.28.1+computecanada requests-oauthlib-1.3.1+computecanada rsa-4.9+computecanada six-1.16.0+computecanada tensorboard-2.9.1+computecanada tensorboard-data-server-0.6.1+computecanada tensorboard-plugin-wit-1.8.1+computecanada tensorflow-2.9.0+computecanada tensorflow-estimator-2.9.0+computecanada tensorflow-io-gcs-filesystem-0.26.0+computecanada termcolor-1.1.0+computecanada typing-extensions-4.4.0+computecanada urllib3-1.26.12+computecanada werkzeug-2.2.2+computecanada wrapt-1.13.3+computecanada zipp-3.8.1+computecanada
+Traceback (most recent call last):
+  File "/home/lourenco/github/cc_horovod/tensorflow-horovod.py", line 20, in <module>
+    tf.config.experimental.set_visible_devices(gpus[hvd.local_rank()], 'GPU')
+IndexError: list index out of range
+2022-10-14 16:00:57.855114: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-14 16:00:57.889103: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Traceback (most recent call last):
+  File "/home/lourenco/github/cc_horovod/tensorflow-horovod.py", line 20, in <module>
+    tf.config.experimental.set_visible_devices(gpus[hvd.local_rank()], 'GPU')
+IndexError: list index out of range
+srun: error: gra978: tasks 2-3: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=66249296.0
+2022-10-14 16:00:58.729967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 11287 MB memory:  -> device: 1, name: Tesla P100-PCIE-12GB, pci bus id: 0000:83:00.0, compute capability: 6.0
+2022-10-14 16:00:58.730644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 11287 MB memory:  -> device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:04:00.0, compute capability: 6.0
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+slurmstepd: error: *** STEP 66249296.0 ON gra978 CANCELLED AT 2022-10-14T16:01:00 ***
+srun: error: gra978: tasks 0-1: Terminated
+srun: Force Terminated StepId=66249296.0
